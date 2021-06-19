@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\BattleShip.cs" />
     <Compile Include="Entity\Board.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Entity\Game.cs" />
     <Compile Include="Entity\Player.cs" />
+    <Compile Include="Entity\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
